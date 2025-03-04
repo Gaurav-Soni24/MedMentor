@@ -36,20 +36,12 @@ export function Header() {
           <Link href="/" className="text-sm font-medium hover:text-primary">
             Find Doctors
           </Link>
-          <Link href="/services" className="text-sm font-medium hover:text-primary">
-            Services
-          </Link>
           <Link href="/appointments" className="text-sm font-medium hover:text-primary">
             Book Appointment
           </Link>
-          <Link href="/about" className="text-sm font-medium hover:text-primary">
-            About Us
+          <Link href="/my-appointments" className="text-sm font-medium hover:text-primary">
+            My Appointments
           </Link>
-          {isLoggedIn && (
-            <Link href="/my-appointments" className="text-sm font-medium hover:text-primary">
-              My Appointments
-            </Link>
-          )}
         </nav>
         <div className="flex items-center gap-4">
           {isLoggedIn ? (

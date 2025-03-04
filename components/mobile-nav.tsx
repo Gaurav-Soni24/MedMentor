@@ -50,24 +50,16 @@ export function MobileNav() {
           <Link href="/" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
             Find Doctors 👨‍⚕️
           </Link>
-          <Link href="/services" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
-            Services 🏥
-          </Link>
           <Link href="/appointments" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
             Book Appointment 📅
           </Link>
-          <Link href="/about" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
-            About Us ℹ️
+          <Link
+            href="/my-appointments"
+            className="text-lg font-medium hover:text-primary"
+            onClick={() => setOpen(false)}
+          >
+            My Appointments 📋
           </Link>
-          {isLoggedIn && (
-            <Link
-              href="/my-appointments"
-              className="text-lg font-medium hover:text-primary"
-              onClick={() => setOpen(false)}
-            >
-              My Appointments 📋
-            </Link>
-          )}
         </nav>
         <div className="mt-auto flex flex-col gap-2">
           {isLoggedIn ? (
