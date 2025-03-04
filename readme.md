@@ -63,7 +63,7 @@ The project is deployed on **[Vercel]** (https://med-mentor.vercel.app/).
 - **Responsiveness**: Works seamlessly across all screen sizes.
 
 ## Contact
-For any queries, feel free to reach out to [your email/contact details].
+For any queries, feel free to reach out to sonigaurav2021@gmail.com +91 7987388197 .
 
 ---
 We look forward to your feedback and suggestions!
